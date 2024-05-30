@@ -76,9 +76,13 @@ class Settings
                 {
                     saveName = "ChessSave";
                 }
-                string path = "saves/" + saveName + ".txt";
+                
+                string directoryPath = "saves";
+                string filePath = Path.Combine(directoryPath, saveName + ".txt");
 
-                using StreamWriter writer = new(path);
+                Directory.CreateDirectory(directoryPath);
+
+                using StreamWriter writer = new(filePath); 
                 writer.WriteLine(playerOneTurn ? "1" : "0");
                 writer.WriteLine(board.GetBoard());
 
