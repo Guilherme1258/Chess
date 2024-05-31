@@ -103,7 +103,6 @@ class Game
                         Console.Write("\nEnter the position you want to move to, or type 'retry' to move another piece: ");
                         movePosition = Console.ReadLine()?.ToUpper();
 
-                        // Verificação do piece desnecessaria mas o compilador tava pedindo
                         if(movePosition == null || piece == null)
                         {
                             continue;

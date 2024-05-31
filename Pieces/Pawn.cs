@@ -146,6 +146,3 @@ class Pawn: Pieces
     }
 
 }
-
-
-// Salvar o estado ghost
