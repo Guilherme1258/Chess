@@ -8,5 +8,7 @@ Currently, only the Player vs. Player mode has been implemented. To play, just t
 
 Example:
 
-Select piece: B2 <br>
-Move to: C3
+![image](https://github.com/Guilherme1258/Chess/assets/84737884/c761d4a6-fa00-48b3-bcf7-9c6bed574705)
+
+Select piece: G3 <br>
+Move to: E3
